@@ -1,0 +1,38 @@
+{
+  "name": "spotify-astro-transitions",
+  "description": "Clone of Spotify with Astro View Transitions integration for fluid navigation",
+  "type": "module",
+  "version": "0.0.1",
+  "author": "https://github.com/igorm84",
+  "engines": {
+    "node": ">=22.22.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "format:check": "prettier --check .",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/svelte": "^9.1.0",
+    "@iconify-json/bi": "^1.2.7",
+    "@iconify-json/carbon": "^1.2.28",
+    "@iconify-json/ion": "^1.2.7",
+    "@iconify-json/mdi": "^1.2.3",
+    "@tailwindcss/vite": "^4.3.3",
+    "astro": "^7.4.0",
+    "astro-icon": "^1.2.0",
+    "svelte": "^5.57.2",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "prettier": "^3.9.10",
+    "prettier-plugin-astro": "^1.1.1",
+    "prettier-plugin-tailwindcss": "^0.8.1",
+    "typescript": "^6.0.3"
+  }
+}
